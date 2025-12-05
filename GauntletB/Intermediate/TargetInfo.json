@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "GauntletB",
+			"Path": "..\\Source\\GauntletB.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "GauntletBEditor",
+			"Path": "..\\Source\\GauntletBEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

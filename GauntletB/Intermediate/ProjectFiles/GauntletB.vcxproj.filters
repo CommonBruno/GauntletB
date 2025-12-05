@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\GauntletB.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GauntletB.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\GauntletBEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\GauntletB">
+      <UniqueIdentifier>{A09EA60B-D0F8-3E39-B280-7590B86FDC53}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GauntletB\GauntletB.Build.cs">
+      <Filter>Source\GauntletB</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\GauntletB\GauntletB.cpp">
+      <Filter>Source\GauntletB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\GauntletB.h">
+      <Filter>Source\GauntletB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GauntletB\GauntletBCharacter.cpp">
+      <Filter>Source\GauntletB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\GauntletBCharacter.h">
+      <Filter>Source\GauntletB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GauntletB\GauntletBGameMode.cpp">
+      <Filter>Source\GauntletB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\GauntletBGameMode.h">
+      <Filter>Source\GauntletB</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GauntletB\GauntletBPlayerController.cpp">
+      <Filter>Source\GauntletB</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\GauntletBPlayerController.h">
+      <Filter>Source\GauntletB</Filter>
+    </ClInclude>
+    <Filter Include="Source\GauntletB\Variant_Combat">
+      <UniqueIdentifier>{10DE8824-94D4-342A-ABF2-89D8E63C3A0A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_Combat\CombatCharacter.cpp">
+      <Filter>Source\GauntletB\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_Combat\CombatCharacter.h">
+      <Filter>Source\GauntletB\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_Combat\CombatGameMode.cpp">
+      <Filter>Source\GauntletB\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_Combat\CombatGameMode.h">
+      <Filter>Source\GauntletB\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_Combat\CombatPlayerController.cpp">
+      <Filter>Source\GauntletB\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_Combat\CombatPlayerController.h">
+      <Filter>Source\GauntletB\Variant_Combat</Filter>
+    </ClInclude>
+    <Filter Include="Source\GauntletB\Variant_Combat\AI">
+      <UniqueIdentifier>{93A27998-EB10-3DB6-B351-2FD7202E5DA8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_Combat\AI\CombatAIController.cpp">
+      <Filter>Source\GauntletB\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_Combat\AI\CombatAIController.h">
+      <Filter>Source\GauntletB\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_Combat\AI\CombatEnemy.cpp">
+      <Filter>Source\GauntletB\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_Combat\AI\CombatEnemy.h">
+      <Filter>Source\GauntletB\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_Combat\AI\CombatEnemySpawner.cpp">
+      <Filter>Source\GauntletB\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_Combat\AI\CombatEnemySpawner.h">
+      <Filter>Source\GauntletB\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_Combat\AI\CombatStateTreeUtility.cpp">
+      <Filter>Source\GauntletB\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_Combat\AI\CombatStateTreeUtility.h">
+      <Filter>Source\GauntletB\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_Combat\AI\EnvQueryContext_Player.cpp">
+      <Filter>Source\GauntletB\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_Combat\AI\EnvQueryContext_Player.h">
+      <Filter>Source\GauntletB\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\GauntletB\Variant_Combat\Animation">
+      <UniqueIdentifier>{66AB02A2-8762-374C-8293-FDBCCDC095A3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.cpp">
+      <Filter>Source\GauntletB\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.h">
+      <Filter>Source\GauntletB\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_Combat\Animation\AnimNotify_CheckCombo.cpp">
+      <Filter>Source\GauntletB\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_Combat\Animation\AnimNotify_CheckCombo.h">
+      <Filter>Source\GauntletB\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_Combat\Animation\AnimNotify_DoAttackTrace.cpp">
+      <Filter>Source\GauntletB\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_Combat\Animation\AnimNotify_DoAttackTrace.h">
+      <Filter>Source\GauntletB\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <Filter Include="Source\GauntletB\Variant_Combat\Gameplay">
+      <UniqueIdentifier>{5512B25B-7D08-345F-AC0A-B09A6434DCB8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_Combat\Gameplay\CombatActivationVolume.cpp">
+      <Filter>Source\GauntletB\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_Combat\Gameplay\CombatActivationVolume.h">
+      <Filter>Source\GauntletB\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_Combat\Gameplay\CombatCheckpointVolume.cpp">
+      <Filter>Source\GauntletB\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_Combat\Gameplay\CombatCheckpointVolume.h">
+      <Filter>Source\GauntletB\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_Combat\Gameplay\CombatDamageableBox.cpp">
+      <Filter>Source\GauntletB\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_Combat\Gameplay\CombatDamageableBox.h">
+      <Filter>Source\GauntletB\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_Combat\Gameplay\CombatDummy.cpp">
+      <Filter>Source\GauntletB\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_Combat\Gameplay\CombatDummy.h">
+      <Filter>Source\GauntletB\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_Combat\Gameplay\CombatLavaFloor.cpp">
+      <Filter>Source\GauntletB\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_Combat\Gameplay\CombatLavaFloor.h">
+      <Filter>Source\GauntletB\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\GauntletB\Variant_Combat\Interfaces">
+      <UniqueIdentifier>{3D8A9970-7B71-3DC7-B4C7-CD07D4A8D1E7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_Combat\Interfaces\CombatActivatable.cpp">
+      <Filter>Source\GauntletB\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_Combat\Interfaces\CombatActivatable.h">
+      <Filter>Source\GauntletB\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_Combat\Interfaces\CombatAttacker.cpp">
+      <Filter>Source\GauntletB\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_Combat\Interfaces\CombatAttacker.h">
+      <Filter>Source\GauntletB\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_Combat\Interfaces\CombatDamageable.cpp">
+      <Filter>Source\GauntletB\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_Combat\Interfaces\CombatDamageable.h">
+      <Filter>Source\GauntletB\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\GauntletB\Variant_Combat\UI">
+      <UniqueIdentifier>{32D14857-0B34-327E-B8A3-8646F3EF2937}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_Combat\UI\CombatLifeBar.cpp">
+      <Filter>Source\GauntletB\Variant_Combat\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_Combat\UI\CombatLifeBar.h">
+      <Filter>Source\GauntletB\Variant_Combat\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\GauntletB\Variant_Platforming">
+      <UniqueIdentifier>{73F14A91-3AB7-30B5-8AD2-56B11E6BDC91}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_Platforming\PlatformingCharacter.cpp">
+      <Filter>Source\GauntletB\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_Platforming\PlatformingCharacter.h">
+      <Filter>Source\GauntletB\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_Platforming\PlatformingGameMode.cpp">
+      <Filter>Source\GauntletB\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_Platforming\PlatformingGameMode.h">
+      <Filter>Source\GauntletB\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_Platforming\PlatformingPlayerController.cpp">
+      <Filter>Source\GauntletB\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_Platforming\PlatformingPlayerController.h">
+      <Filter>Source\GauntletB\Variant_Platforming</Filter>
+    </ClInclude>
+    <Filter Include="Source\GauntletB\Variant_Platforming\Animation">
+      <UniqueIdentifier>{149DD7C6-F2CC-31C3-9BD9-3EE81C5529A6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_Platforming\Animation\AnimNotify_EndDash.cpp">
+      <Filter>Source\GauntletB\Variant_Platforming\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_Platforming\Animation\AnimNotify_EndDash.h">
+      <Filter>Source\GauntletB\Variant_Platforming\Animation</Filter>
+    </ClInclude>
+    <Filter Include="Source\GauntletB\Variant_SideScrolling">
+      <UniqueIdentifier>{B002CD24-3CFB-3F58-BEDE-2EA1F0C4AC03}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_SideScrolling\SideScrollingCameraManager.cpp">
+      <Filter>Source\GauntletB\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_SideScrolling\SideScrollingCameraManager.h">
+      <Filter>Source\GauntletB\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_SideScrolling\SideScrollingCharacter.cpp">
+      <Filter>Source\GauntletB\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_SideScrolling\SideScrollingCharacter.h">
+      <Filter>Source\GauntletB\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_SideScrolling\SideScrollingGameMode.cpp">
+      <Filter>Source\GauntletB\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_SideScrolling\SideScrollingGameMode.h">
+      <Filter>Source\GauntletB\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_SideScrolling\SideScrollingPlayerController.cpp">
+      <Filter>Source\GauntletB\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_SideScrolling\SideScrollingPlayerController.h">
+      <Filter>Source\GauntletB\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <Filter Include="Source\GauntletB\Variant_SideScrolling\AI">
+      <UniqueIdentifier>{7CED2AD9-BFD5-3989-B9B7-BB94BEC5345A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_SideScrolling\AI\SideScrollingAIController.cpp">
+      <Filter>Source\GauntletB\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_SideScrolling\AI\SideScrollingAIController.h">
+      <Filter>Source\GauntletB\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_SideScrolling\AI\SideScrollingNPC.cpp">
+      <Filter>Source\GauntletB\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_SideScrolling\AI\SideScrollingNPC.h">
+      <Filter>Source\GauntletB\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.cpp">
+      <Filter>Source\GauntletB\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.h">
+      <Filter>Source\GauntletB\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\GauntletB\Variant_SideScrolling\Gameplay">
+      <UniqueIdentifier>{4DFC000B-592B-33BE-A313-43593493049A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.cpp">
+      <Filter>Source\GauntletB\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.h">
+      <Filter>Source\GauntletB\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.cpp">
+      <Filter>Source\GauntletB\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.h">
+      <Filter>Source\GauntletB\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_SideScrolling\Gameplay\SideScrollingPickup.cpp">
+      <Filter>Source\GauntletB\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_SideScrolling\Gameplay\SideScrollingPickup.h">
+      <Filter>Source\GauntletB\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.cpp">
+      <Filter>Source\GauntletB\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.h">
+      <Filter>Source\GauntletB\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\GauntletB\Variant_SideScrolling\Interfaces">
+      <UniqueIdentifier>{C5C0A375-1E0A-348A-8A87-28FB9D50B090}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_SideScrolling\Interfaces\SideScrollingInteractable.cpp">
+      <Filter>Source\GauntletB\Variant_SideScrolling\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_SideScrolling\Interfaces\SideScrollingInteractable.h">
+      <Filter>Source\GauntletB\Variant_SideScrolling\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\GauntletB\Variant_SideScrolling\UI">
+      <UniqueIdentifier>{711EAD74-78F7-3CBD-9637-5A816E32F6FD}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GauntletB\Variant_SideScrolling\UI\SideScrollingUI.cpp">
+      <Filter>Source\GauntletB\Variant_SideScrolling\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GauntletB\Variant_SideScrolling\UI\SideScrollingUI.h">
+      <Filter>Source\GauntletB\Variant_SideScrolling\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
